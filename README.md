@@ -26,4 +26,12 @@ First, a simple script will, more often than anticipated, grow into a large, com
 Secondly, if nobody else can understand how it works, you will be lumbered with maintaining it yourself for the rest of your life!
 Something about shell scripts seems to make them particularly likely to be badly indented, and since the main control structures are if/then/else and loops, indentation is critical for understanding what a script does.
 
+# Terms and concepts
+<strong>1 - Subnet</strong>
+
+A subnet, or subnetwork, is a network inside a network.
+Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routers to reach its destination.
+
+<img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/2pBqIHUTSlxI7EW9XZPKf3/551ab3390ab9ab86fee15c73fd245f6c/subnet-diagram.svg" height="200px" width="100%" />
+
 &copy; 2022 - <a href="https://ismailium.vercel.app/"><b>Ismailium</b></a>
