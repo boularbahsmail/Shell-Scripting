@@ -32,6 +32,17 @@ Something about shell scripts seems to make them particularly likely to be badly
 A subnet, or subnetwork, is a network inside a network.
 Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary routers to reach its destination.
 
-<img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/2pBqIHUTSlxI7EW9XZPKf3/551ab3390ab9ab86fee15c73fd245f6c/subnet-diagram.svg" height="200px" width="100%" />
+<img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/2pBqIHUTSlxI7EW9XZPKf3/551ab3390ab9ab86fee15c73fd245f6c/subnet-diagram.svg" height="200px" />
+
+<strong>2 - Positional parameters</strong>
+
+A positional parameter is a variable within a shell program; its value is set from an argument specified on the command line that invokes the program. Positional parameters are numbered and are referred to with a preceding ``$'': $1, $2, $3, and so on.
+
+A shell program may reference up to nine positional parameters. If a shell program is invoked with a command line that appears like this:
+
+   shell.prog pp1 pp2 pp3 pp4 pp5 pp6 pp7 pp8 pp9
+then positional parameter $1 within the program is assigned the value pp1, positional parameter $2 within the program is assigned the value pp2, and so on, at the time the shell program is invoked.
+
+<img src="https://www.computerhope.com/jargon/p/positional-parameter.jpg" height="200px" />
 
 &copy; 2022 - <a href="https://ismailium.vercel.app/"><b>Ismailium</b></a>
